@@ -54,6 +54,7 @@ Scheduling tasks on the Event Loop: `setTimeout`, `clearTimeout`.  `setInterval`
 Solve each exercise on a separate branch and merge to master when they are complete.  Be sure to run `$ node review.js` before pushing to make it easier for your coaches to review your work.
 
 * [Closure](https://github.com/hackyourfuturebelgium/closure)
+* [Promise Practice](https://github.com/oliverjam/promise-practice)
 * [Promises](https://github.com/hackyourfuturebelgium/promises)
 
 #### Integrating JavaScript
@@ -71,9 +72,9 @@ Solve each exercise on a separate branch and merge to master when they are compl
 
 #### `budget-app`
 
-> [project type](https://github.com/HackYourFutureBelgium/homework-submission/#projects)
+> [Code-Along](https://github.com/HackYourFutureBelgium/homework-submission/#projects)
 
-This week's project is to study the [budget-app tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo) from FCC.  You will build a more complex project that uses classes
+This week's project is to study the [budget-app tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo) from FCC.  You will build a more complex project that uses classes.  There is no starter repository to fork, you're on your own this week!
 
 You will be expected to turn in your code from his tutorial on a new repository called `budget-app`.  This should be a complete project repository including:
 
