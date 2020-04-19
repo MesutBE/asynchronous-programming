@@ -8,6 +8,8 @@ fetch(url)
   .then(res => res.json())
   .then(data => {
     console.log(assertMsg('requested data:'), data);
+    const whatIneed = data.filter(x => x.userId===9)
+    return whatIneed
     // write me!
   })
   .then(albums => {
