@@ -13,7 +13,7 @@ fetch(url)
   .then(res => res.json())
   .then(data => {
     console.log(assertMsg('requested data:'), data);
-    // write me!
+    return data.filter(post => post.userId === 8);
   })
   .then(filteredPosts => {
     const test1 = filteredPosts.length === 10;
