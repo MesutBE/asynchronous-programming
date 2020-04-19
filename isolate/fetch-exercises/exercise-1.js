@@ -9,11 +9,11 @@ fetch(url)
   .then(res => res.json())
   .then(data => {
     console.log(assertMsg('requested data:'), data);
-    // write me
+    const whatIneed = data.find(x => x.title === 'error magni fugiat dolorem impedit molestiae illo ullam debitis' );
+    return whatIneed;
   })
   .then(photo => {
     const test1 = photo.title === 'error magni fugiat dolorem impedit molestiae illo ullam debitis';
     console.assert(test1, assertMsg('Test 1'));
   })
   .catch(err => console.error(err));
-
