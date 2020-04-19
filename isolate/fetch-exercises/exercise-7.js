@@ -8,7 +8,12 @@ fetch(url)
   .then(res => res.json())
   .then(data => {
     console.log(assertMsg('requested data:'), data);
-    // write me!
+    let simplifiedUsers = data.map(item => ({
+      id: item["id"],
+      name: item["name"],
+      username: item['username']
+    }));
+    return simplifiedUsers;
   })
   .then(simplifiedUsers => {
     const test1 = simplifiedUsers.length === 10;
